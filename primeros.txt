@@ -1,0 +1,68 @@
+Microsoft Windows [Versión 10.0.19042.1466]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\windows\System32>py
+Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> #program.py
+>>> sum=1+2
+>>> print(sum)
+3
+>>> python3.10 program.py
+  File "<stdin>", line 1
+    python3.10 program.py
+           ^^^
+SyntaxError: invalid syntax
+>>> print('Hola desde la consola')
+Hola desde la consola
+>>> sum=1+2#3
+>>> product=sum*3
+>>> print('product')
+product
+>>> print(product)
+9
+>>>
+KeyboardInterrupt
+>>>
+KeyboardInterrupt
+>>> planetas_en_el_sistema_solar = 8 # int, plutón era considerado un planeta pero ya es muy pequeño
+>>> distancia_a_alfa_centauri = 4.367 # float, años luz
+>>> puede_despegar = True
+>>> transbordador_que_aterrizo_en_la_luna = "Apollo 11" #string
+>>> distancia_a_alfa_centauri = 4.367
+>>> type(distancia_a_alfa_centauri)
+<class 'float'>
+>>> print(distancia_a_alfa_centauri)
+4.367
+>>>
+>>> left_side = 10
+>>> right_side = 5
+>>> left_side / right_side # 2
+2.0
+>>> from datetime import date
+>>> date.today()
+datetime.date(2022, 2, 8)
+>>> print(date.today())
+2022-02-08
+>>> print("Today's date is: " + date.today())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "datetime.date") to str
+>>> print("Today's date is: " + str(date.today()))
+Today's date is: 2022-02-08
+>>> input()
+print("Bienvenido al programa de bienvenida")
+'print("Bienvenido al programa de bienvenida")'
+>>> input()
+print("Bienvenido al programa de bienvenida")
+'print("Bienvenido al programa de bienvenida")'
+>>> name = input("Introduzca su nombre ")
+Introduzca su nombre print("Saludos: " + name)
+>>>
+>>>
+>>> python input.py
+  File "<stdin>", line 1
+    python input.py
+           ^^^^^
+SyntaxError: invalid syntax
+>>>
